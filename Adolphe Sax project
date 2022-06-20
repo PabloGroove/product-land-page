@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta  content="width=device-width, initial-scale=1.0">
+<meta http-equiv+"X-UA-Compatible" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" href="styles.css">
+  <script src="https://cdn.freecodecamp.org/testable-project.fcc/v1/bundle.js"></script>
+<title>Product Landing Page</title>
+</head>
+  <header id="header">
+    <h1></h1>
+    <img src="https://www.adolphesax.be/wp-content/uploads/2017/01/logo-1.png" 
+         alt="sax-logo"
+         id="header-img"
+         />
+    <br>
+    <nav id="nav-bar">
+      <a href="#home" class="nav-link">HOME</a>
+      <a href="#about" class="nav-link">ABOUT</a>
+      <a href="#saxophones" class="nav-link">SAXOPHONES</a>
+    </nav>
+  </header>
+  
+<body>
+  <section id="home"></section>
+  <section id="about"></section>
+  <section id="saxophones">
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <iframe 
+    width="1264" 
+    height="552" 
+    src="https://www.youtube.com/embed/3iNGfwgemA8" 
+    title="Adolphe Sax | Pre-Owned Tenor Saxophones" 
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
+    id="video" ></iframe>
+  </section>
+
+</body>
+  <footer>
+    <form action="https://www.freecodecamp.com/email-submit" 
+          id="form">
+      <input 
+             id="text"
+             type="text"
+             placeholder="Do you have any questions?"
+             requierd
+             />
+      <br>
+      <input
+             name="email"
+             type="email" 
+             id="email"
+             placeholder="What is your email?"
+             required
+             />
+       <input
+              id="submit" 
+              class="submit"
+              type="submit"
+              value="ask now"
+              />      
+  </footer>
+  
+</html>
